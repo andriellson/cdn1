@@ -51,7 +51,7 @@ $('<i class="nowPlaying">Reproduzindo ...</i>').insertAfter(this);
       var videoID = $(this).attr('data-videoID');
       Visitados(videoID);
 
-      var videos = $('<div class="meuVideo"> <video width="100%"  controls="controls" autoplay="true" src="https://ns5001921.ip-192-99-16.net/Uploads/' + videoID + '" type="video/mp4"" frameborder="0" allowfullscreen></video> </div>');
+      var videos = $('<div class="meuVideo"> <video width="100%"  controls="controls" autoplay="true" src="https://ns3100761.ip-54-36-175.eu/' + videoID + '" type="video/mp4"" frameborder="0" allowfullscreen></video> </div>');
 
       $('.meuVideo, .nowPlaying').remove();
       $(this).parents().eq(2).append(videos);
